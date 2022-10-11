@@ -2,9 +2,9 @@
   "name": "marketplace",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": "next start",
     "lint": "next lint",
     "format:write": "prettier --write **/*.{ts,css,tsx}",
     "format:check": "prettier --check **/*.{ts,css,tsx}",
